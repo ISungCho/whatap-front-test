@@ -3,6 +3,7 @@
 # dependencies
 /test
 /frontend/node_modules
+/api/node_modules
 
 # testing
 /coverage
