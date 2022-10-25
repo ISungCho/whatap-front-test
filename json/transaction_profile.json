@@ -1,0 +1,155 @@
+[
+  {
+    "elapsed": 0,
+    "desc": [
+      "host=0.0.0.99",
+      "x-wtap-mst=z21fthprp7p010,1,z61d5otpj9b649,x5rs",
+      "referer=#"
+    ],
+    "type": "MESSAGE",
+    "msg": "HTTP-HEADERS"
+  },
+  {
+    "elapsed": 1614,
+    "type": "METHOD",
+    "method": "com.virtual.web.VExec.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V"
+  },
+  {
+    "elapsed": 1614,
+    "type": "METHOD",
+    "method": "com.virtual.web.Simula$1.process()V"
+  },
+  {
+    "elapsed": 85,
+    "type": "METHOD",
+    "method": "com.virtual.web.Simula.execute()V"
+  },
+  {
+    "elapsed": 2,
+    "db": "mysql",
+    "dbc": "jdbc:mysql://localhost:3306,localhost:3310/fake",
+    "type": "DBC"
+  },
+  {
+    "dbc": "jdbc:mysql://localhost:3306,localhost:3310/fake",
+    "elapsed": 83,
+    "type": "SQL",
+    "sql": "SELECT sal + NULL\nFROM emp\nWHERE empno = #\n",
+    "hasError": false
+  },
+  {
+    "elapsed": 0,
+    "dbc": "jdbc:mysql://localhost:3306,localhost:3310/fake",
+    "fetch": 888,
+    "sql": "SELECT sal + NULL\nFROM emp\nWHERE empno = #\n",
+    "type": "SQL"
+  },
+  {
+    "elapsed": 0,
+    "desc": ["/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/security/cacerts"],
+    "type": "MESSAGE",
+    "msg": "FileReadOpen"
+  },
+  {
+    "elapsed": 1003,
+    "type": "METHOD",
+    "method": "com.virtual.dao.RemoteDAO.execute()V"
+  },
+  {
+    "port": 10011,
+    "host": "127.0.0.1",
+    "url": "/remote/account/kill/dept/seoul",
+    "elapsed": 1002,
+    "type": "HTTPCALL",
+    "hasError": false
+  },
+  {
+    "elapsed": 337,
+    "type": "METHOD",
+    "method": "com.virtual.web.Simula.execute()V"
+  },
+  {
+    "elapsed": 2,
+    "db": "mysql",
+    "dbc": "jdbc:mysql://localhost:3306,localhost:3310/fake",
+    "type": "DBC"
+  },
+  {
+    "dbc": "jdbc:mysql://localhost:3306,localhost:3310/fake",
+    "elapsed": 335,
+    "type": "SQL",
+    "sql": "SELECT * FROM emp\n",
+    "hasError": false
+  },
+  {
+    "elapsed": 0,
+    "dbc": "jdbc:mysql://localhost:3306,localhost:3310/fake",
+    "fetch": 144,
+    "sql": "SELECT * FROM emp\n",
+    "type": "SQL"
+  },
+  {
+    "elapsed": 53,
+    "type": "METHOD",
+    "method": "com.virtual.web.Simula.execute()V"
+  },
+  {
+    "elapsed": 53,
+    "type": "METHOD",
+    "method": "com.virtual.dao.InsertDAO.execute()V"
+  },
+  {
+    "elapsed": 1,
+    "db": "mysql",
+    "dbc": "jdbc:mysql://localhost:3306,localhost:3310/fake",
+    "type": "DBC"
+  },
+  {
+    "dbc": "jdbc:mysql://localhost:3306,localhost:3310/fake",
+    "elapsed": 52,
+    "type": "SQL",
+    "sql": "INSERT INTO EMP VALUES\n(#, ‘JAMES’, ‘CLERK’, #, ‘#-DEC-#’, #, NULL, #)\n",
+    "hasError": false
+  },
+  {
+    "elapsed": 134,
+    "type": "METHOD",
+    "method": "com.virtual.web.Simula.execute()V"
+  },
+  {
+    "elapsed": 2,
+    "db": "mysql",
+    "dbc": "jdbc:mysql://localhost:3306,localhost:3310/fake",
+    "type": "DBC"
+  },
+  {
+    "dbc": "jdbc:mysql://localhost:3306,localhost:3310/fake",
+    "errClass": "java.sql.SQLException(0)",
+    "elapsed": 132,
+    "type": "SQL",
+    "sql": "SELECT DISTINCT pp.LastName, pp.FirstName\nFROM Person.Person pp JOIN HumanResources.Employee e\nON e.BusinessEntityID = pp.BusinessEntityID WHERE pp.BusinessEntityID IN\n(SELECT SalesPersonID\nFROM Sales.SalesOrderHeader\nWHERE SalesOrderID IN\n(SELECT SalesOrderID\nFROM Sales.SalesOrderDetail\nWHERE ProductID IN\n(SELECT ProductID\nFROM Production.Product p\nWHERE ProductNumber = '#')))\n",
+    "errMessage": "Sql Exception",
+    "hasError": true
+  },
+  {
+    "elapsed": 0,
+    "type": "METHOD",
+    "method": "com.virtual.SelfMon.addServiceTx(J)V"
+  },
+  {
+    "elapsed": 0,
+    "type": "METHOD",
+    "method": "com.virtual.SelfMon$1.clear(Ljava/lang/Object;)V"
+  },
+  {
+    "elapsed": 0,
+    "type": "METHOD",
+    "method": "com.virtual.SelfMon$1.clear(Lcom/virtual/SelfMon$Bucket;)V"
+  },
+  {
+    "type": "PARAMETERS",
+    "elapsed": 0,
+    "value": "time=20200704 20:03:00.325\nage=10\nname=홍길동\naddr=서울시 성동구 성수1가 10\n",
+    "msg": "HTTP-PARAMETERS"
+  }
+]

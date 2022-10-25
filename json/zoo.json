@@ -1,0 +1,102 @@
+[
+    {
+        "type": "BIRD",
+        "id": "46460047841921370",
+        "name": "강 정은",
+        "sound": "출근합니다",
+        "leg": 2,
+        "wing": {
+            "color": "blue",
+            "length": 64
+        },
+        "feather": {
+            "color": "pink",
+            "length": 58
+        }
+    },
+    {
+        "type": "RABBIT",
+        "id": "17048455959031216",
+        "name": "고 수성",
+        "sound": "심심하시죠",
+        "leg": 2,
+        "tail": {
+            "color": "pupple",
+            "length": 65
+        },
+        "fur": {
+            "color": "pupple",
+            "length": 4
+        }
+    },
+    {
+        "type": "CAT",
+        "id": "67128167595098940",
+        "name": "박 지훈",
+        "sound": "안녕히계세요",
+        "leg": 2,
+        "tail": {
+            "color": "yellow",
+            "length": 47
+        },
+        "fur": {
+            "color": "green",
+            "length": 96
+        }
+    },
+    {
+        "type": "DOG",
+        "id": "42029944342988904",
+        "name": "박 수성",
+        "sound": "퇴근합니다",
+        "leg": 2,
+        "tail": {
+            "color": "blue",
+            "length": 38
+        },
+        "fur": {
+            "color": "grey",
+            "length": 75
+        }
+    },
+    {
+        "type": "APE",
+        "id": "22655374789299908",
+        "name": "조 이성",
+        "leg": 2,
+        "tail": {
+            "color": "green",
+            "length": 32
+        },
+        "fur": {
+            "color": "white",
+            "length": 65
+        }
+    },
+    {
+        "type": "ELEPHANT",
+        "id": "28154654977398508",
+        "name": "김 수연",
+        "sound": "퇴근합니다",
+        "leg": 2,
+        "tail": {
+            "color": "white",
+            "length": 9
+        }
+    },
+    {
+        "type": "HORSE",
+        "id": "20165498877928244",
+        "name": "박 이성",
+        "sound": "커탐하실 분~",
+        "leg": 2,
+        "tail": {
+            "color": "pupple",
+            "length": 54
+        },
+        "fur": {
+            "color": "yellow",
+            "length": 20
+        }
+    }
+]
